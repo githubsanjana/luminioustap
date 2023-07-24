@@ -1,0 +1,85 @@
+.main-heading{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 41rem;
+    background-color: rgb(89, 5, 168);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.1rem;
+    font-weight: 700;
+    font-size:2rem;
+    font-family: cursive ;
+    color: rgb(252, 233, 20);
+}
+button{
+    margin-top: 2rem;
+    font-weight: 700;
+    color: white;
+    background: rgb(225, 29, 221);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.text{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+button:hover{
+    background:yellow ;
+    color: black;
+    transform: translate(20);
+    transform: translateY(-5px);
+}
+img{
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0);
+    transition: box-shadow 0.3s ease;
+    border-radius: 16px;
+    width: 20rem;
+    height: 20rem;
+    margin-right: 5px;
+}
+img:hover{
+    box-shadow: 0 0 20px rgb(236, 89, 244);
+
+}
+.made-with-love {
+    font-family: cursive;
+    font-weight: 600;
+    color: white;
+    background: rgb(252, 77, 229);
+    font-size: 15px;
+    padding: 8px;
+}
+
+
+.heart {
+    color: #ff0000;
+}
+@media(max-width:700px){
+    img{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .button1{
+        right: 20px;
+        position: absolute;
+        bottom: 2px;
+    }
+}
