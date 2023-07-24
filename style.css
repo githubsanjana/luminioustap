@@ -50,13 +50,13 @@ img{
     margin-right: 5px;
 }
 img:hover{
-    box-shadow: 0 0 20px rgb(236, 89, 244);
+    box-shadow: 0 0 20px rgb(229, 139, 234);
 
 }
 .made-with-love {
-    font-family: cursive;
-    font-weight: 600;
-    color: white;
+    /* font-family: cursive; */
+    font-weight: 800;
+    color: black;
     background: rgb(252, 77, 229);
     font-size: 15px;
     padding: 8px;
@@ -68,18 +68,18 @@ img:hover{
 }
 @media(max-width:700px){
     img{
-        margin-left: 1rem;
+        margin-left: 2rem;
         margin-right: 1rem;
         display: flex;
         justify-content: center;
         align-content: center;
     }
     h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .button1{
         right: 20px;
         position: absolute;
-        bottom: 2px;
+        bottom: 0px;
     }
 }
